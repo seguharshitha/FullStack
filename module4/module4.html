@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS3 Effects and Animations
+        </title>
+        <style>
+            #shadow
+            {
+                text-shadow: 1px 1px 5px red;
+                font-size: 50px;
+            }
+            @font-face
+            {
+                font-family: myFirstFont;
+                src: url(CalibergroteskExtralightcn-vm96Z.otf)
+            }
+            #myfont
+            {
+                font-size: 30px;
+                font-family: myFirstFont;
+            }
+           /* #myrotate
+            {
+                width: 50px;
+                height: 100px;
+                border: 1px solid black;
+            }*/
+            #image1
+            {
+                transform: rotate(30deg);
+            }
+            #image2
+            {
+                transform: rotate(60deg);
+            }
+            #image3
+            {
+                transform: rotate(30deg);
+            }
+            #image4
+            {
+                transform: rotate(30deg);
+            }
+            #image5
+            {
+                transform: rotate(60deg);
+            }
+            #image6
+            {
+                transform: rotateY(30deg);
+            }
+            #image7
+            {
+                transform: rotateY(180deg);
+            }
+            .newspaper 
+            {
+                column-count: 4;
+                column-gap: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Text Shadow</h3>
+        <div id="shadow">
+            CSS3 Effects and Animations
+        </div>
+        <h3>Font Face</h3>
+        <div id="myfont">
+            Harshitha Segu
+        </div>
+        <h3>2D Transition</h3>
+        <br>
+        <br><br>
+        
+        <div id="myrotate">
+            <img src="image1.jpeg" id="image1">
+            <img src="image2.jpeg" id="image2">
+            <img src="image3.jpeg" id="image3">
+            <img src="image4.jpeg" id="image4">
+            <img src="image5.jpeg" id="image5" width="200px" height="200px">
+        </div>
+        <br><br>
+        <br>
+        <h3>3D Transition</h3>
+        <div>
+            <img src="image.jpeg" id="image6">
+            <img src="image.jpeg" id="image7">
+        </div>
+        <h3>Multiple Columns</h3>
+        <div class="newspaper">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+            </div>
+    </body>
+</html>
